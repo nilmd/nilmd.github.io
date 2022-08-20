@@ -317,8 +317,8 @@ section {
   }
 
   .nav-container {
-    margin-left: 220px;
-    margin-right: 220px;
+    margin-left: 200px;
+    margin-right: 200px;
   }
 }
 
@@ -328,13 +328,33 @@ section {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin-left: 300px;
-    margin-right: 300px;
+    margin-left: 200px;
+    margin-right: 200px;
   }
 
   .nav-container {
-    margin-left: 300px;
-    margin-right: 300px;
+    margin-left: 200px;
+    margin-right: 200px;
+  }
+
+  .about-card {
+    max-width: 900px;
+  }
+}
+
+@media only screen and (min-width: 1350px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-left: 250px;
+    margin-right: 250px;
+  }
+
+  .nav-container {
+    margin-left: 250px;
+    margin-right: 250px;
   }
 
   .about-card {
@@ -353,8 +373,8 @@ section {
   }
 
   .nav-container {
-    margin-left: 400px;
-    margin-right: 400px;
+    margin-left: 300px;
+    margin-right: 300px;
   }
 
   .about-card {
