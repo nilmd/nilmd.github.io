@@ -322,3 +322,51 @@ h5 {
     margin-right: 220px;
   }
 }
+
+@media only screen and (min-width: 1200px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-left: 300px;
+    margin-right: 300px;
+  }
+
+  .nav-container {
+    margin-left: 300px;
+    margin-right: 300px;
+  }
+}
+
+@media only screen and (min-width: 1500px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-left: 300px;
+    margin-right: 300px;
+  }
+
+  .nav-container {
+    margin-left: 400px;
+    margin-right: 400px;
+  }
+}
+
+@media only screen and (min-width: 1800px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-left: 300px;
+    margin-right: 300px;
+  }
+
+  .nav-container {
+    margin-left: 500px;
+    margin-right: 500px;
+  }
+}
